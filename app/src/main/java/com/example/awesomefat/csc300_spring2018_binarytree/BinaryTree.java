@@ -13,6 +13,7 @@ public class BinaryTree
         this.root = null;
     }
 
+    /*
     public void add(int payload)
     {
         String directions = "";
@@ -48,6 +49,12 @@ public class BinaryTree
             }
         }
         System.out.println("***********" + directions);
+    }
+    */
+
+    public void newAdd(int payload)
+    {
+        this.root.add(payload);
     }
 
     public void display()
